@@ -1,0 +1,59 @@
+
+/* Global */
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+header h1, 
+legend {
+	color: #02546b;
+}
+
+/*Header*/
+header {
+	text-align: center;
+	background-color: #f4faff;
+	padding: 25px 0;
+}
+header img {
+	max-width: 200px;
+}
+header h1 {
+	font-size: 2.5rem;
+	margin: 20px 0;
+}
+
+/* Formulaire */
+form {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.3rem;
+    padding: 0 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+fieldset {
+	margin: 25px 0;
+}
+fieldset div {
+	margin: 5px 0;
+}
+legend {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+input[type="radio"]:checked + label {
+	color: red;
+	text-decoration: line-through;
+}
+input[type="radio"][dataqcm="true"]:checked + label {
+	color: green;
+	text-decoration: underline;
+}
+label,
+input[type="radio"] {
+	cursor: pointer;
+}
+fieldset img {
+	max-width: 120px;
+}
